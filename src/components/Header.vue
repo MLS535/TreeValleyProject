@@ -17,7 +17,7 @@
           </li>
           <li class="nav-item  ">
             <!--            <a  href="blog.html">Blog</a>-->
-            <router-link class="nav-link " to="/blog">Shop</router-link>
+            <router-link class="nav-link " to="/shop">Shop</router-link>
           </li>
           <li class="nav-item ">
             <!--            <a class="nav-link" href="contact.html">Contact</a>-->

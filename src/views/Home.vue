@@ -16,7 +16,7 @@
         <div class="carousel-item active">
           <img src="../assets/images/sofa.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h1>Tree Valley: Muebles para el hogar</h1>
+            <h5>Tree Valley: Muebles para el hogar</h5>
             <p>Project 1: ISS</p>
           </div>
         </div>

@@ -112,11 +112,13 @@
     </div>
   </div>
 </div>
+
+  <h1>{{$store.state.titleApp}}</h1>
 </template>
 
 <script>
 export default {
-  name: "Blog"
+  name: "Shop"
 }
 </script>
 
