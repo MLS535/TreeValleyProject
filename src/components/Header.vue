@@ -3,7 +3,7 @@
 
     <div class=" d-flex  m-0">
       <!--      <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>-->
-      <img src="../assets/images/logo.png" alt="logo">
+      <img src="../assets/images/TreeValley.png" alt="logo">
       <div class="pt-2">
         <button class="navbar-toggler align-self-baseline" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
@@ -13,20 +13,23 @@
       <div class="collapse navbar-collapse align-items-stretch mt-0" id="mynavbar">
         <ul class="navbar-nav mt-0 m-0">
           <li class="nav-item home-top home">
-            <router-link class="nav-link " to="/">Home</router-link>
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item  ">
             <!--            <a  href="blog.html">Blog</a>-->
-            <router-link class="nav-link " to="/about">About</router-link>
+            <router-link class="nav-link " to="/blog">Blog</router-link>
           </li>
           <li class="nav-item ">
             <!--            <a class="nav-link" href="contact.html">Contact</a>-->
-            <router-link class="nav-link " to="/about">Contact</router-link>
+            <router-link class="nav-link " to="/contact">Contact</router-link>
+
           </li>
         </ul>
       </div>
     </div>
+
   </nav>
+
   <router-view/>
 </template>
 
