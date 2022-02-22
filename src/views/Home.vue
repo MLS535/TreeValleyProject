@@ -1,10 +1,9 @@
 <template>
   <div class="home">
-<!--    <img alt="Vue logo" src="../assets/logo.png">-->
-<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+
     <div class="fontbody text-black-50 ">
 
-    <!--<div class=" container  d-flex align-items-center justify-content-center">-->
+
 
         <div class="container py-5 m-0 align-items-center justify-content-center">
             <div class="row d-flex justify-content-center">
