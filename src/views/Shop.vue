@@ -4,64 +4,58 @@
 
     <div class="container my-5">
       
-      <div class="row">
-        <div class="col">
-          <div class="card">
-            <img src="../assets/images/blog-thumb1.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Producto 1</h5>
-              <p class="card-text">Descripción del producto 1.</p>
-              <div class="d-flex flex-row justify-content-between">
-                <h3 class="text-muted text-start">25 €</h3>
-                <div class="btn btn-primary">Al carrito</div>
-              </div>
+      <div class="card-group">
+
+        <div class="card m-2" style="min-width: 18rem;">
+          <img src="../assets/images/sillon1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto 1</h5>
+            <p class="card-text">Descripción del producto 1.</p>
+            <div class="d-flex flex-row justify-content-between">
+              <h3 class="text-muted text-start">25 €</h3>
+              <div class="btn btn-primary">Al carrito</div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="../assets/images/blog-thumb2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Producto 2</h5>
-              <p class="card-text">Descripción del producto 2.</p>
-              <div class="d-flex flex-row justify-content-between">
-                <h3 class="text-muted text-start">25 €</h3>
-                <div class="btn btn-primary">Al carrito</div>
-              </div>
+
+        <div class="card m-2" style="min-width: 18rem;">
+          <img src="../assets/images/armario.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto 2</h5>
+            <p class="card-text">Descripción del producto 2.</p>
+            <div class="d-flex flex-row justify-content-between">
+              <h3 class="text-muted text-start">25 €</h3>
+              <div class="btn btn-primary">Al carrito</div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <img src="../assets/images/blog-thumb3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Producto 3</h5>
-              <p class="card-text">Descripción del producto 3.</p>
-              <div class="d-flex flex-row justify-content-between">
-                <h3 class="text-muted text-start">25 €</h3>
-                <div class="btn btn-primary">Al carrito</div>
-              </div>
+
+        <div class="card m-2" style="min-width: 18rem;">
+          <img src="../assets/images/escritorio1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto 3</h5>
+            <p class="card-text">Descripción del producto 3.</p>
+            <div class="d-flex flex-row justify-content-between">
+              <h3 class="text-muted text-start">25 €</h3>
+              <div class="btn btn-primary">Al carrito</div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-2">
-          <div class="card">
-            <img src="../assets/images/blog-thumb4.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Producto 4</h5>
-              <p class="card-text">Descripción del producto 4.</p>
-              <div class="d-flex flex-row justify-content-between">
-                <h3 class="text-muted text-start">25 €</h3>
-                <div class="btn btn-primary">Al carrito</div>
-              </div>
+
+        <div class="card m-2" style="min-width: 18rem;">
+          <img src="../assets/images/comoda.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Producto 4</h5>
+            <p class="card-text">Descripción del producto 4.</p>
+            <div class="d-flex flex-row justify-content-between">
+              <h3 class="text-muted text-start">25 €</h3>
+              <div class="btn btn-primary">Al carrito</div>
             </div>
           </div>
-        </div>
         </div>
         
       </div>
-
+      
     </div>
 
   <div class="container p-1 mb-5">
