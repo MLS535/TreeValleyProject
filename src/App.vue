@@ -4,16 +4,34 @@
 <!--    <router-link to="/about">About</router-link>-->
 <!--  </div>-->
 <!--  <router-view/>-->
+
   <Header/>
+  <Shop
+      v-for="product  in  products"
+      :key="product.id"
+      :id="product.id"
+      :name="product.name"
+      :image="product.image"
+      :price="product.price"
+  />
   <Footer/>
 </template>
 <script>
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Shop from "./views/Shop";
+// import ListShopping from "./components/ListShopping";
 export default {
   name: 'Home',
+  computed: {
+    products() {
+      return this.$store.getters.products;
+    }
+  },
   components: {
     Footer,
+    // ListShopping,
+    Shop,
     Header,
   }
 }
