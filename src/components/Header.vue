@@ -1,4 +1,5 @@
 <template>
+  <ListShopping/>
   <nav class=" container-fluid navbar navbar-expand-md p-0 navbar-light  bg-white m-0 py-0 justify-content-around"  id="nav">
 
     <div class=" d-flex  m-0">
@@ -31,11 +32,23 @@
   </nav>
 
   <router-view/>
+
 </template>
 
 <script>
+// import Shop from "../views/Shop";
+
+import ListShopping from "./ListShopping";
 export default {
-  name: "Header"
+  name: "Header",
+  // computed: {
+  //   // products() {
+  //   //   return this.$store.getters.products;
+  //   // }
+  // },
+components:{
+    ListShopping
+}
 }
 </script>
 
