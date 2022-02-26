@@ -4,9 +4,9 @@
     <div v-for="(item, index) in cart" :key="index">
       <div>{{ item.name }}</div>
       <div>
-        <img :src="item.image" alt style="width: 250px"/>
+        <img :src="item.image" alt style="width: 150px"/>
       </div>
-      <div>{{ '$' + item.price }}</div>
+      <div>{{ item.price + ' €'}}</div>
       <div>
         <div class="btn btn-primary" @click="removeItem(index)">Eliminar</div>
       </div>

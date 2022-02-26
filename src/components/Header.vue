@@ -1,10 +1,10 @@
 <template>
   <ListShopping/>
-  <nav class=" container-fluid navbar navbar-expand-md p-0 navbar-light  bg-white m-0 py-0 justify-content-around"  id="nav">
+  <nav class="container-fluid navbar navbar-expand-md p-0 navbar-light  bg-white m-0 py-0 justify-content-around"  id="nav">
 
-    <div class=" d-flex  m-0">
+    <div class="d-flex m-0">
       <!--      <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>-->
-      <img src="../assets/images/TreeValley.png" alt="logo">
+      <img src="../assets/images/TreeValley.png" class="align-self-center" alt="logo">
       <div class="pt-2">
         <button class="navbar-toggler align-self-baseline" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
@@ -41,14 +41,9 @@
 import ListShopping from "./ListShopping";
 export default {
   name: "Header",
-  // computed: {
-  //   // products() {
-  //   //   return this.$store.getters.products;
-  //   // }
-  // },
-components:{
+  components: {
     ListShopping
-}
+  }
 }
 </script>
 

@@ -1,37 +1,15 @@
 <template>
-<!--  <div id="nav">-->
-<!--    <router-link to="/">Home</router-link> |-->
-<!--    <router-link to="/about">About</router-link>-->
-<!--  </div>-->
-<!--  <router-view/>-->
-
   <Header/>
-  <Shop
-      v-for="product  in  products"
-      :key="product.id"
-      :id="product.id"
-      :name="product.name"
-      :image="product.image"
-      :price="product.price"
-  />
   <Footer/>
 </template>
 <script>
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Shop from "./views/Shop";
 // import ListShopping from "./components/ListShopping";
 export default {
   name: 'Home',
-  computed: {
-    products() {
-      return this.$store.getters.products;
-    }
-  },
   components: {
     Footer,
-    // ListShopping,
-    Shop,
     Header,
   }
 }
@@ -39,24 +17,5 @@ export default {
 </script>
 <style lang="scss">
 @import "style/custom.scss";
-//#app {
-//  font-family: Avenir, Helvetica, Arial, sans-serif;
-//  -webkit-font-smoothing: antialiased;
-//  -moz-osx-font-smoothing: grayscale;
-//  text-align: center;
-//  color: #2c3e50;
-//}
-//
-//#nav {
-//  padding: 30px;
-//
-//  a {
-//    font-weight: bold;
-//    color: #2c3e50;
-//
-//    &.router-link-exact-active {
-//      color: #42b983;
-//    }
-//  }
-//}
+
 </style>

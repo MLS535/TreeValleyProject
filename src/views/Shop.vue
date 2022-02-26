@@ -3,37 +3,35 @@
   <!--  <div class="blog fontbody text-black-50">-->
 
   <div class="container my-5">
-
-    <div class="row">
-      <div class="col">
-        <div class="card">
-          <img :src="image" class="card-img-top" alt="..." style="width: 250px">
-          <div class="card-body">
-            <h5 class="card-title">{{ name }}</h5>
-            <p class="card-text">Descripción del producto 1.</p>
-            <div class="d-flex flex-row justify-content-between">
-              <h3 class="text-muted text-start">{{  `${price}€` }}</h3>
-              <div class="btn btn-primary" @click="addItem(id)">Añadir</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Product
+      v-for="product in products"
+      :key="product.id"
+      :id="product.id"
+      :name="product.name"
+      :descripcion="product.descripcion"
+      :image="product.image"
+      :price="product.price"
+  />
+    
   </div>
 
 
 </template>
 
 <script>
+import Product from '../components/Product.vue'
 
 // import ListShopping from "../components/ListShopping";
 export default {
-  name: "Shop",
-  // components: {ListShopping},
-  props: ["id", "name", "image", "price"],
-  methods: {
-    addItem(id) {
-      this.$store.dispatch("addItem", id);
+  components: { Product },
+  computed: {
+    products() {
+      return this.$store.getters.products;
+    }
+  },
+  data() {
+    return {
+      name: 'Shop',
     }
   }
 }

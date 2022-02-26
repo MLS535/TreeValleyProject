@@ -5,41 +5,34 @@ export default createStore({
     titleApp: "Carrito",
     products: [
       {
-        id: 0,
-        name: "Mueble 0",
-        image:
-            "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
-        price: 340,
-      },
-      {
         id: 1,
         name: "Mueble 1",
-        image:
-            "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        descripcion: "Poner una descripción 1",
+        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
         price: 340,
       },
 
       {
         id: 2,
         name: "Mueble 2",
-        image:
-            "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        descripcion: "Poner una descripción 2",
+        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
         price: 340,
       },
 
       {
         id: 3,
         name: "Mueble 3",
-        image:
-            "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        descripcion: "Poner una descripción 3",
+        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
         price: 340,
       },
 
       {
         id: 4,
         name: "Mueble 4",
-        image:
-            "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        descripcion: "Poner una descripción 4",
+        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
         price: 340,
       },
     ],
