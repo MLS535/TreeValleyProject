@@ -3,7 +3,9 @@
   <!--  <div class="blog fontbody text-black-50">-->
 
   <div class="container my-5">
-    <Product
+    <div class="card-group">
+      
+      <Product
       v-for="product in products"
       :key="product.id"
       :id="product.id"
@@ -11,8 +13,9 @@
       :descripcion="product.descripcion"
       :image="product.image"
       :price="product.price"
-  />
-    
+    />
+
+    </div>
   </div>
 
 

@@ -1,6 +1,7 @@
 import { createStore } from 'vuex'
 
 export default createStore({
+  // Con require podemos cargar nuestras imágenes a partir de la store de vuex
   state: {
     titleApp: "Carrito",
     products: [
@@ -8,7 +9,7 @@ export default createStore({
         id: 1,
         name: "Mueble 1",
         descripcion: "Poner una descripción 1",
-        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        image: require('@/assets/images/sillon1.png'),
         price: 340,
       },
 
@@ -16,7 +17,7 @@ export default createStore({
         id: 2,
         name: "Mueble 2",
         descripcion: "Poner una descripción 2",
-        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        image: require('@/assets/images/comoda.png'),
         price: 340,
       },
 
@@ -24,7 +25,7 @@ export default createStore({
         id: 3,
         name: "Mueble 3",
         descripcion: "Poner una descripción 3",
-        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        image: require('@/assets/images/escritorio1.png'),
         price: 340,
       },
 
@@ -32,7 +33,7 @@ export default createStore({
         id: 4,
         name: "Mueble 4",
         descripcion: "Poner una descripción 4",
-        image: "https://www.ikea.com/es/es/images/products/kransborre-cojin-rosa-claro__0920477_pe787064_s5.jpg?f=s",
+        image: require('@/assets/images/armario.png'),
         price: 340,
       },
     ],
