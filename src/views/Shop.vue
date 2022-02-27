@@ -31,9 +31,9 @@
       <div class="row d-flex justify-content-center my-4">
         <div class="col-md-8">
           <div class="card mb-4">
-            <div class="card-header py-3">
-              <h5 class="mb-0">Tienda</h5>
-            </div>
+<!--            <div class="card-header py-3">-->
+<!--              <h5 class="mb-0">Tienda</h5>-->
+<!--            </div>-->
             <div class="card-body">
               <!-- Single item -->
               <div class="row" v-for="product in products"
