@@ -1,5 +1,5 @@
 <template>
-  <ListShopping/>
+
   <nav class="container-fluid navbar navbar-expand-md p-0 navbar-light  bg-white m-0 py-0 justify-content-around"  id="nav">
 
     <div class="d-flex m-0">
@@ -23,8 +23,13 @@
           <li class="nav-item ">
             <!--            <a class="nav-link" href="contact.html">Contact</a>-->
             <router-link class="nav-link " to="/contact">Contact</router-link>
-
+<!--            <ListShopping/>-->
           </li>
+<!--          <li class="nav-item ">-->
+<!--            &lt;!&ndash;            <a class="nav-link" href="contact.html">Contact</a>&ndash;&gt;-->
+<!--             <ListShopping/>-->
+
+<!--          </li>-->
         </ul>
       </div>
     </div>
@@ -38,12 +43,12 @@
 <script>
 // import Shop from "../views/Shop";
 
-import ListShopping from "./ListShopping";
+// import ListShopping from "./ListShopping";
 export default {
   name: "Header",
-  components: {
-    ListShopping
-  }
+  // components: {
+  //   ListShopping
+  // }
 }
 </script>
 

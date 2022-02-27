@@ -27,15 +27,7 @@ export default createStore({
         descripcion: "Poner una descripción 3",
         image: require('@/assets/images/escritorio1.png'),
         price: 340,
-      },
-
-      {
-        id: 4,
-        name: "Mueble 4",
-        descripcion: "Poner una descripción 4",
-        image: require('@/assets/images/armario.png'),
-        price: 340,
-      },
+      }
     ],
     StoreCart: [],
   },
