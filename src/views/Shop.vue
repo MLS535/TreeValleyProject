@@ -3,7 +3,7 @@
 
 
 
-  <section class="h-100 gradient-custom">
+  <section class="h-100 gradient-custom home fontbody text-black-50">
     <div class="container py-2">
       <div class="row d-flex justify-content-center my-4">
         <div class="col-md-8">
@@ -27,9 +27,9 @@
 
                 <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
                   <!-- Data -->
-                  <p><strong>{{ product.name }}</strong></p>
+                  <h5 class="h3color"><strong>{{ product.name }}</strong></h5>
                   <p>{{ product.descripcion }}</p>
-                  <p>Precio: {{ product.price }}</p>
+                  <p>Precio: {{ product.price }}€</p>
                   <!-- Data -->
                 </div>
 
@@ -96,5 +96,8 @@ export default {
 </script>
 
 <style scoped>
-
+button{
+  background-color: #1bb5ac;
+  border: #1bb5ac;
+}
 </style>

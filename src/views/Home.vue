@@ -59,7 +59,7 @@
           <div class="card border  " style="width: 18rem;">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Descubre nuestros precios más bajos</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
@@ -68,7 +68,7 @@
           <div class="card border " >
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Organiza tu hogar por muy poco dinero</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
@@ -77,7 +77,7 @@
           <div class="card border ">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Ideas para organizar todo tu hogar</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
