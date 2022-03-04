@@ -14,26 +14,26 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../assets/images/sofa.jpg" class="d-block w-100" alt="...">
+          <img src="../assets/images/sofa.webp" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Tree Valley: Muebles para el hogar</h5>
             <p>Project 1: ISS</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../assets/images/objetos.jpg" class="d-block w-100" alt="...">
+          <img src="../assets/images/objetos.webp" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../assets/images/plantas.jpg" class="d-block w-100" alt="...">
+          <img src="../assets/images/plantas.webp" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>5G Services</h5>
             <p>Project 3: 5G</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../assets/images/cocina.jpg" class="d-block w-100" alt="...">
+          <img src="../assets/images/cocina.webp" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Defending against asteroids</h5>
             <p>Project 4: Asteroicidium</p>
