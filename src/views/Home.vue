@@ -100,7 +100,7 @@
             </p>
           </div>
           <div class="col-5">
-            <img src="../assets/images/salon.jpg" alt="" style="width: 100%">
+            <img src="../assets/images/camadormitorio.jpg" alt="" style="width: 100%">
           </div>
         </div>
       </div>
