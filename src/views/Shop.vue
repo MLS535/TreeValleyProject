@@ -1,29 +1,6 @@
 <template>
 
-  <!--  <div class="container d-flex  ">-->
-  <!--  <div class="container">-->
-  <!--    <div class="row cards">-->
-  <!--      <div class="col-lg-2 order-1 mt-3  blogaccordeon ">-->
-  <!--      -->
-  <!--      </div>-->
 
-  <!--      </div>-->
-
-
-<!--        <div class="col-5" v-for="product in products"-->
-<!--             :key="product.id">-->
-<!--          <div class="card m-2">-->
-<!--            <img v-bind:src="product.image" class="card-img-top" alt="muebles">-->
-<!--            <div class="card-body">-->
-<!--              <h5 class="card-title">{{ product.name }}</h5>-->
-<!--              <p class="card-text">{{ product.descripcion }}</p>-->
-<!--              <div class="d-flex flex-row justify-content-between">-->
-<!--                <h3 class="text-muted text-start">{{ product.price }} €</h3>-->
-<!--                <div class="btn btn-primary" @click="addItem(product.id)">Añadir</div>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </div>-->
 
 
   <section class="h-100 gradient-custom">
@@ -31,9 +8,7 @@
       <div class="row d-flex justify-content-center my-4">
         <div class="col-md-8">
           <div class="card mb-4">
-<!--            <div class="card-header py-3">-->
-<!--              <h5 class="mb-0">Tienda</h5>-->
-<!--            </div>-->
+
             <div class="card-body">
               <!-- Single item -->
               <div class="row" v-for="product in products"
@@ -87,6 +62,7 @@
       </div>
     </div>
   </section>
+
 
 
 

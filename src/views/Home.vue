@@ -53,82 +53,29 @@
     </div>
     </div>
     <!--HOME -->
-
-
-
-    <div class="container">
-
-      <div class="container py-5 m-0 align-items-center justify-content-center">
-        <div class="row d-flex justify-content-center">
-          <div class="col-4 ">
-            <img src="../assets/images/dormitorio.jpg" alt="" style="width: 80%">
-          </div>
-          <div class="col-5  p-10 text-end">
-            <img class="reduceimage" src="../assets/images/kayamura.png" alt="">
-
-            <h3 class="h3color">This is just a place holder</h3>
-            <p>
-              This website template has been designed by 
-              <a class="link-secondary" href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. 
-              You can replace all this text with your own text. You can remove any link to our website from this website template, 
-              you're free to use this website template without linking back to us. If you're having problems editing this website
-              template, then don't hesitate to ask for help on the 
-              <a class="link-secondary" href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-            </p>
-
-          </div>
-        </div>
+<div class="container m-3">
+  <div class="row d-flex justify-content-center">
+    <div class="col">
+    <div class="card" >
+      <img src="../assets/images/dormitorio.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-
-      <!--</div>-->
-
-      <div class="container p-2 mb-3 m-0 d-flex justify-content-center">
-        <div class="row  ">
-          <div class="col-5 text-start p-5 ">
-            <h3 class="h3color">This is just a place holder</h3>
-            <p>
-              This website template has been designed by 
-              <a class="link-secondary" href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free.
-            </p>
-            <p>
-              You can replace all this text with your own text. You can remove any link to our website from this
-              website template, you're free to use this website template without linking back to us.
-            </p>
-            <p>
-              If you're having problems editing this website template, then don't hesitate to ask for help on the
-              <a class="link-secondary" href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-            </p>
-          </div>
-          <div class="col-5">
-            <img src="../assets/images/salon.jpg" alt="" style="width: 100%">
-          </div>
-        </div>
-      </div>
-
-      <!--      <div class="container  align-items-center m-0">-->
-<!--        <div class="row d-flex justify-content-center">-->
-<!--          <div class="col-lg-4">-->
-<!--            <img src="../assets/images/eco-park.png" alt="">-->
-<!--          </div>-->
-<!--          <div class="col-lg-4 text-end align-items-center justify-content-center">-->
-<!--            <h3 class="h3color">This is just a place holder</h3>-->
-<!--            <p>-->
-<!--              This website template has been designed by <br> <a class="link-secondary"-->
-<!--                                                                 href="http://www.freewebsitetemplates.com/">Free-->
-<!--              Website Templates</a> for you,-->
-<!--              for free. You can replace all this <br> text with your own text. You can remove any link to our website-->
-<!--              <br> from this website template, you're free-->
-<!--              to use this website template <br> without linking back to us.-->
-<!--            </p>-->
-<!--            <p>-->
-<!--              If you're having problems editing this website template, then don't hesitate to ask for help on the-->
-<!--              <a class="link-secondary" href="http://www.freewebsitetemplates.com/forums/">Forums</a>.-->
-<!--            </p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
     </div>
     </div>
+    <div class="col">
+    <div class="card" >
+      <img src="../assets/images/salon.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+  </div>
 
 </template>
 
