@@ -1,6 +1,9 @@
 <template>
 
-  <section class="h-100 gradient-custom">
+
+
+
+  <section class="h-100 gradient-custom home fontbody text-black-50">
     <div class="container py-2">
       <div class="row d-flex justify-content-center my-4">
         <div class="col-md-8">
@@ -86,5 +89,8 @@ export default {
 </script>
 
 <style scoped>
-
+button{
+  background-color: #1bb5ac;
+  border: #1bb5ac;
+}
 </style>
