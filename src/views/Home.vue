@@ -64,7 +64,7 @@
           </div>
         </div>
         <div class="col align-self-center">
-          <div class="card border " >
+          <div class="card border " style="width: 18rem;">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Organiza tu hogar por muy poco dinero</h5>
@@ -73,7 +73,7 @@
           </div>
         </div>
         <div class="col align-self-center">
-          <div class="card border ">
+          <div class="card border " style="width: 18rem;">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Ideas para organizar todo tu hogar</h5>
