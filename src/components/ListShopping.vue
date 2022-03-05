@@ -19,19 +19,16 @@
       <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
   <div class="accordion-body" >
     <ul class="list-group list-group-flush" v-for="(item, index) in cart" :key="index">
-      <li
-          class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
-        <p> <img :src="item.image" alt style="width: 50px"/></p>
+      <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+        <p><img :src="item.image" alt style="width: 50px"/></p>
         <p><strong>{{ item.name }}</strong></p>
         <p>Precio: {{ item.price + ' €'}}</p>
         <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
-                title="Remove item" @click="removeItem(index)">Remove
+                title="Remove item" @click="removeItem(index), restarPrecio(index)">Remove
         </button>
       </li>
-<!--      <span><strong>{{ sumPrecios(item.price) }}</strong></span>-->
     </ul>
-    <li
-        class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
+    <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
       <div>
         <strong>Total amount</strong>
         <strong>
@@ -80,9 +77,11 @@ export default {
   },
   methods: {
     removeItem(index) {
-      this.$store.dispatch ( "removeItem", index );
+      this.$store.dispatch("removeItem", index);
     },
-
+    restarPrecio(index) {
+      this.$store.dispatch("restarPrecio", index);
+    },
   }
 }
 </script>

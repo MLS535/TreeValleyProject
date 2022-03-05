@@ -1,8 +1,5 @@
 <template>
 
-
-
-
   <section class="h-100 gradient-custom home fontbody text-black-50">
     <div class="container py-2">
       <div class="row d-flex justify-content-center my-4">
@@ -66,7 +63,6 @@
 <script>
 // import Product from '../components/Product.vue'
 import ListShopping from "../components/ListShopping";
-
 
 export default {
   components: {ListShopping},

@@ -47,8 +47,11 @@ export default createStore({
     },
 
     SUMAR_Precio(state, price) {
-      //state.total.push(price);
       state.total.push(price);
+    },
+
+    RESTAR_Precio(state, index) {
+      state.total.splice(index, 1);
     }
   },
   actions: {
@@ -62,6 +65,10 @@ export default createStore({
 
     sumarPrecio(context, price) {
       context.commit("SUMAR_Precio", price);
+    },
+
+    restarPrecio(context, index) {
+      context.commit("RESTAR_Precio", index);
     }
   },
   modules: {},
