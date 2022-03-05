@@ -38,7 +38,7 @@
           <p class="mb-0">(including VAT)</p>
         </strong>
       </div>
-      <span><strong>Precio</strong></span>
+      <h3><strong>{{ total }}€</strong></h3> <!-- Mostrar suma con el precio total -->
     </li>
     <button type="button" class="btn btn-primary btn-lg btn-block">
       Go to checkout
@@ -65,7 +65,18 @@ export default {
           return cartitems === itemForSale.id;
         } );
       } );
+    },
+    precios() {
+      return this.$store.getters.total
+    },
+    total: function () {
+      var sum = 0;
+      this.precios.forEach(e => {
+          sum += e;
+      });
+      return sum
     }
+    
   },
   methods: {
     removeItem(index) {

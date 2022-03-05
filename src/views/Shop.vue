@@ -38,7 +38,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                   <div class="d-flex mb-4" style="max-width: 300px">
-                    <button class="btn btn-primary px-3 me-2" @click="addItem(product.id)">
+                    <button class="btn btn-primary px-3 me-2" @click="addItem(product.id), sumarPrecio(product.price)">
                       Añadir
                     </button>
                   </div>
@@ -77,8 +77,11 @@ export default {
   },
   methods: {
     addItem(id) {
-      this.$store.dispatch ( "addItem", id );
+      this.$store.dispatch("addItem", id);
     },
+    sumarPrecio(id) {
+      this.$store.dispatch("sumarPrecio", id);
+    }
   },
   data() {
     return {
