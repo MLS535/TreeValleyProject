@@ -16,27 +16,27 @@
           <div class="carousel-item active">
             <img src="../assets/images/sofa.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Tree Valley: Muebles para el hogar</h5>
-              <p>Project 1: ISS</p>
+              <h5 class="text-uppercase">Tree Valley: Muebles para el hogar</h5>
+
             </div>
           </div>
           <div class="carousel-item">
             <img src="../assets/images/objetos.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-uppercase">Calidad es sinonimo de Tree Valley</h5>
             </div>
           </div>
           <div class="carousel-item">
             <img src="../assets/images/plantas.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>5G Services</h5>
-              <p>Project 3: 5G</p>
+              <h5 class="text-uppercase">Configura tu casa a tu gusto</h5>
+
             </div>
           </div>
           <div class="carousel-item">
             <img src="../assets/images/cocina.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Defending against asteroids</h5>
-              <p>Project 4: Asteroicidium</p>
+              <h5 class="text-uppercase">Muebles fabricados en España</h5>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
     <!--HOME -->
     <div class="container d-flex justify-content-around mt-4">
       <div class="row m-0 p-0  align-item-center ">
-        <div class="col align-self-center m-1">
+        <div class="col align-self-center">
           <div class="card border  " style="width: 18rem;">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
@@ -65,7 +65,7 @@
           </div>
         </div>
         <div class="col align-self-center">
-          <div class="card border " >
+          <div class="card border " style="width: 18rem;">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Organiza tu hogar por muy poco dinero</h5>
@@ -74,7 +74,7 @@
           </div>
         </div>
         <div class="col align-self-center">
-          <div class="card border ">
+          <div class="card border " style="width: 18rem;">
             <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Ideas para organizar todo tu hogar</h5>
