@@ -14,27 +14,27 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../assets/images/sofa.jpg" class="d-block w-100" alt="...">
+            <img src="../assets/images/sofa.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-uppercase">Tree Valley: Muebles para el hogar</h5>
 
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/objetos.jpg" class="d-block w-100" alt="...">
+            <img src="../assets/images/objetos.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-uppercase">Calidad es sinonimo de Tree Valley</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/plantas.jpg" class="d-block w-100" alt="...">
+            <img src="../assets/images/plantas.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-uppercase">Configura tu casa a tu gusto</h5>
 
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/cocina.jpg" class="d-block w-100" alt="...">
+            <img src="../assets/images/cocina.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5 class="text-uppercase">Muebles fabricados en España</h5>
             </div>

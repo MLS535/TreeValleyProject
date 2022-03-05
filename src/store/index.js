@@ -7,35 +7,41 @@ export default createStore({
     products: [
       {
         id: 1,
-        name: "Mueble 1",
-        descripcion: "Poner una descripción 1",
+        name: "Sofá",
+        descripcion: "Chaiselongue, Gunnared gris.",
         image: require('@/assets/images/sillon1.png'),
         price: 340,
       },
 
       {
         id: 2,
-        name: "Mueble 2",
-        descripcion: "Poner una descripción 2",
+        name: "Cómoda",
+        descripcion: "Cómoda de 6 cajones, color blanco 82x126 cm.",
         image: require('@/assets/images/comoda.png'),
-        price: 265,
+        price: 185,
       },
 
       {
         id: 3,
-        name: "Mueble 3",
-        descripcion: "Poner una descripción 3",
+        name: "Escritorio",
+        descripcion: "Escritorio para el hogar, beige 140x60 cm.",
         image: require('@/assets/images/escritorio1.png'),
-        price: 280,
+        price: 169,
       }
     ],
+    cliente: {
+      nombre: "Nombre",
+      apellido: "Apellido",
+      direccion: "Calle del cliente"
+    },
     StoreCart: [],
     total: [],
   },
   getters: {
     products: (state) => state.products,
     StoreCart: (state) => state.StoreCart,
-    total: (state) => state.total
+    total: (state) => state.total,
+    cliente: (state) => state.cliente
   },
   mutations: {
     ADD_Item(state, id) {

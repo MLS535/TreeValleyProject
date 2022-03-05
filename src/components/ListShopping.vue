@@ -1,7 +1,4 @@
 <template>
-
-
-
   <div class="accordion">
     <div class="accordion-item">
       <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -35,11 +32,9 @@
           <p class="mb-0">(including VAT)</p>
         </strong>
       </div>
-      <h3><strong>{{ total }}€</strong></h3> <!-- Mostrar suma con el precio total -->
+      <h3><strong>{{ total }} €</strong></h3> <!-- Mostrar suma con el precio total -->
     </li>
-    <button type="button" class="btn btn-primary btn-lg btn-block">
-      Go to checkout
-    </button>
+    
   </div>
       </div>
       </div>

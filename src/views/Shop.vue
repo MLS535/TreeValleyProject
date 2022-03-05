@@ -30,7 +30,7 @@
                 <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
                   <p><strong>{{ product.name }}</strong></p>
                   <p>{{ product.descripcion }}</p>
-                  <p>Precio: {{ product.price }}€</p>
+                  <p>Precio: {{ product.price }} €</p>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -52,6 +52,9 @@
         <div class="col-md-4">
           <div class="card mb-4">
             <ListShopping/>
+            <button type="button" class="btn btn-primary btn-lg btn-block">
+              <router-link class="nav-link text-white" to="/checkout">Ir al checkout</router-link>
+            </button>
           </div>
         </div>
       </div>
