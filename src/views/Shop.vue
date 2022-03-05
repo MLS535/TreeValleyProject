@@ -1,8 +1,5 @@
 <template>
 
-
-
-
   <section class="h-100 gradient-custom home fontbody text-black-50">
     <div class="container py-2">
       <div class="row d-flex justify-content-center my-4">
@@ -38,7 +35,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                   <div class="d-flex mb-4" style="max-width: 300px">
-                    <button class="btn btn-primary px-3 me-2" @click="addItem(product.id)">
+                    <button class="btn btn-primary px-3 me-2" @click="addItem(product.id), sumarPrecio(product.price)">
                       Añadir
                     </button>
                   </div>
@@ -67,7 +64,6 @@
 // import Product from '../components/Product.vue'
 import ListShopping from "../components/ListShopping";
 
-
 export default {
   components: {ListShopping},
   computed: {
@@ -77,8 +73,11 @@ export default {
   },
   methods: {
     addItem(id) {
-      this.$store.dispatch ( "addItem", id );
+      this.$store.dispatch("addItem", id);
     },
+    sumarPrecio(id) {
+      this.$store.dispatch("sumarPrecio", id);
+    }
   },
   data() {
     return {
