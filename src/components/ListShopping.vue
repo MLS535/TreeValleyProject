@@ -21,15 +21,15 @@
         <p><strong>{{ item.name }}</strong></p>
         <p>Precio: {{ item.price + ' €'}}</p>
         <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
-                title="Remove item" @click="removeItem(index), restarPrecio(index)">Remove
+                title="Remove item" @click="removeItem(index), restarPrecio(index)">Eliminar
         </button>
       </li>
     </ul>
     <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
       <div>
-        <strong>Total amount</strong>
+        <strong>Cantidad total</strong>
         <strong>
-          <p class="mb-0">(including VAT)</p>
+          <p class="mb-0">(con IVA)</p>
         </strong>
       </div>
       <h3><strong>{{ total }} €</strong></h3> <!-- Mostrar suma con el precio total -->
