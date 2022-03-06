@@ -32,12 +32,14 @@ export default createStore({
     cliente: '',
     StoreCart: [],
     total: [],
+    checkout: false,
   },
   getters: {
     products: (state) => state.products,
     StoreCart: (state) => state.StoreCart,
     total: (state) => state.total,
-    cliente: (state) => state.cliente
+    cliente: (state) => state.cliente,
+    checkout: (state) => state.checkout,
   },
   mutations: {
     ADD_Item(state, id) {
@@ -59,6 +61,14 @@ export default createStore({
     REGISTRAR_Cliente(state, cli) {
       state.cliente = cli;
     },
+
+    MOSTRAR_Checkout(state) {
+      if (state.StoreCart.length > 0) {
+        state.checkout = true;
+      } else {
+        state.checkout = false;
+      }
+    }
   },
   actions: {
     addItem(context, id) {
@@ -79,6 +89,10 @@ export default createStore({
 
     registrarCliente(context, cli) {
       context.commit("REGISTRAR_Cliente", cli);
+    },
+
+    mostrarCheckout(context) {
+      context.commit("MOSTRAR_Checkout");
     }
   },
   modules: {},

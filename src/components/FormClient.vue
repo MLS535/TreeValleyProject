@@ -1,5 +1,5 @@
 <template>
-
+  
   <form id="formu" @submit.prevent="submitForm">
     <fieldset>
       <legend>Datos de cliente</legend>
@@ -23,9 +23,12 @@
         </div>
 
         <div class="mb-3 col-6">
-          <button class="btn btn-primary mt-4" @click="submitForm(cliente)"><router-link class="nav-link text-white" to="/compra">Realizar pedido</router-link></button>
+          <button v-if="checkout" class="btn btn-primary mt-4" @click="submitForm(cliente)"><router-link class="nav-link text-white" to="/compra">Realizar pedido</router-link></button>
+          <button v-if="!checkout" class="btn btn-outline-secondary mt-4" disabled>Realizar pedido</button>
         </div>
         
+        <div v-if="!checkout" class="text-danger">¡Vaya, tu cesta de compra está vacía! Vuelve a añadir productos para poder realizar tu pedido.</div>
+
       </div>
     </fieldset>
   </form>
@@ -45,6 +48,11 @@ export default {
       }
     }
   },
+  computed: {
+    checkout() { 
+      return this.$store.getters.checkout;
+    },
+  },
   methods: {
     submitForm(cliente) {
       let cli = {
@@ -60,8 +68,9 @@ export default {
 </script>
 
 <style scoped>
-button{
+btn-primary {
   background-color: #1bb5ac;
   border: #1bb5ac;
 }
+
 </style>

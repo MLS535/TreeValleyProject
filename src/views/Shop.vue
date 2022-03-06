@@ -9,28 +9,14 @@
 
               <div class="row" v-for="product in products" :key="product.id">
 
-                <!-- <div class="col-12 col-md-6 col-xl-4">
-                  <div class="card m-2">
-                    <img v-bind:src="image" class="card-img-top" alt="..." style="min-width: 18rem">
-                    <div class="card-body">
-                      <h5 class="card-title">{{ name }}</h5>
-                      <p class="card-text">{{ descripcion }}</p>
-                      <div class="d-flex flex-row justify-content-between">
-                        <h3 class="text-muted text-start">{{ price }} €</h3>
-                        <div class="btn btn-primary" @click="addItem(id)">Añadir</div>
-                      </div>
-                    </div>
-                  </div>
-                </div> Hello -->
-
                 <div class="col-lg-3 col-md-12 mb-4 mb-lg-0" >
                     <img v-bind:src="product.image" class="w-100" alt="Mueble"/>
                 </div>
 
                 <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
                   <h3 class="h3color"><strong>{{ product.name }}</strong></h3>
-                  <p>{{ product.descripcion }}</p>
-                  <p><strong>Precio: {{ product.price }} €</strong></p>
+                  <p class="font-custom">{{ product.descripcion }}</p>
+                  <p class="font-custom"> <strong>Precio: {{ product.price }} €</strong></p>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -76,6 +62,9 @@ export default {
     StoreCart() {
       return this.$store.getters.StoreCart;
     },
+    checkout() { 
+      return this.$store.getters.checkout;
+    },
   },
   methods: {
     addItem(id) {
@@ -85,17 +74,12 @@ export default {
       this.$store.dispatch("sumarPrecio", id);
     },
     mostrarCheckout() {
-      if (this.StoreCart.length > 0) {
-        this.checkout = true;
-      } else {
-        this.checkout = false;
-      }
-    }
+      this.$store.dispatch("mostrarCheckout");
+    },
   },
   data() {
     return {
       name: 'Shop',
-      checkout: false
     }
   }
 }
@@ -105,5 +89,8 @@ export default {
 button{
   background-color: #1bb5ac;
   border: #1bb5ac;
+}
+.font-custom{
+  font-size: 0.8rem;
 }
 </style>
