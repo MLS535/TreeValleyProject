@@ -8,7 +8,7 @@
 - [Netlify](#Netlify)  
 - [Lighthouse ](#Lighthouse )
 - [Guía de usuario](#guía-de-usuario)
-- [Principios UX y tecnicas de accesibilidad](#Principios UX y tecnicas de accesibilidad)
+- [Principios UX y tecnicas de accesibilidad](#Principios UX y tecnicas de accesibilidad:)
 - [Ampliacion](#Ampliacion )
 - [Guía de instalacion](#guía-de-instalación) 
 - [Autor/es](#autores)
