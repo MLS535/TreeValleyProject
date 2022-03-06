@@ -1,6 +1,6 @@
 
 <h1 align="center"> Tree Valley</h1>
-
+<p align="center"><img src="/src/assets/images/TreeValley.png" alt="Lighthouse"/></p> 
 ## Tabla de contenidos:
 ---
 
