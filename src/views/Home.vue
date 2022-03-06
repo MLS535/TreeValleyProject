@@ -16,27 +16,27 @@
           <div class="carousel-item active">
             <img src="../assets/images/sofa.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-uppercase">Tree Valley: Muebles para el hogar</h5>
+              <h2 class="text-uppercase bg-dark">Tree Valley: Muebles para el hogar</h2>
 
             </div>
           </div>
           <div class="carousel-item">
             <img src="../assets/images/objetos.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-uppercase">Calidad es sinonimo de Tree Valley</h5>
+              <h2 class="text-uppercase bg-dark">Calidad es sinonimo de Tree Valley</h2>
             </div>
           </div>
           <div class="carousel-item">
             <img src="../assets/images/plantas.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-uppercase">Configura tu casa a tu gusto</h5>
+              <h2 class="text-uppercase bg-dark">Configura tu casa a tu gusto</h2>
 
             </div>
           </div>
           <div class="carousel-item">
             <img src="../assets/images/cocina.webp" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-uppercase">Muebles fabricados en España</h5>
+              <h2 class="text-uppercase bg-dark">Muebles fabricados en España</h2>
             </div>
           </div>
         </div>
@@ -53,38 +53,49 @@
       </div>
     </div>
     <!--HOME -->
-    <div class="container d-flex justify-content-around mt-4">
-      <div class="row m-0 p-0  align-item-center ">
-        <div class="col align-self-center">
+    <div class="container d-flex justify-content-around">
+      <div class="row  p-0  align-item-center ">
+        <div class="col align-self-center  mt-4">
+          <router-link class="text-decoration-none"  to="/shop">
           <div class="card border  " style="width: 18rem;">
-            <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
+            <img class="card-img-top border-dark" src="../assets/images/espejo.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Descubre nuestros precios más bajos</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h3 class="card-title"><strong>Descubre nuestros precios más bajos</strong></h3>
+              <p class="card-text text-secondary">Tree Valley hace productos unicos, especiales para gente como tu, la calidad a un solo click.Hazme click y veremos todo los productos disponibles.</p>
             </div>
           </div>
+          </router-link>
         </div>
-        <div class="col align-self-center">
+        <div class="col align-self-center mt-4">
+          <router-link class="text-decoration-none"  to="/shop">
           <div class="card border " style="width: 18rem;">
-            <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
+            <img class="card-img-top border-dark" src="../assets/images/kitchen.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Organiza tu hogar por muy poco dinero</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <h3 class="card-title"> <strong>Organiza tu hogar por muy poco dinero</strong></h3>
+              <p class="card-text text-secondary">Revisa nuestros productos que están hechos con sumo mimo para ti y solo para ti. Hazme click y veremos todo los productos disponibles.</p>
             </div>
           </div>
+          </router-link>
         </div>
-        <div class="col align-self-center">
-          <div class="card border " style="width: 18rem;">
-            <img class="card-img-top border-dark" src="../assets/images/cocina.jpg" alt="Card image cap">
+
+        <div class="col align-self-center  mt-4">
+          <router-link class="text-decoration-none"  to="/shop">
+          <div class="card border" style="width: 18rem;">
+            <img class="card-img-top border-dark" src="../assets/images/tv.jpg" alt="Card image cap">
             <div class="card-body">
-              <h5 class="card-title">Ideas para organizar todo tu hogar</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h3 class="card-title"><strong>Ideas para organizar todo tu hogar</strong></h3>
+              <p class="card-text text-secondary">¿Te gusta lo que ves? Entra y revisa todo lo que tenemos disponible en nuestra tienda. Hazme click y veremos todo los productos disponibles.</p>
             </div>
           </div>
+          </router-link>
         </div>
+
       </div>
     </div>
+
+
   </div>
+
 
 </template>
 
@@ -99,3 +110,21 @@ export default {
 }
 
 </script>
+<style scoped>
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+
+</style>

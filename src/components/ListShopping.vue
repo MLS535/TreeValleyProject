@@ -19,7 +19,7 @@
       <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
         <p><img :src="item.image" alt style="width: 50px"/></p>
         <p><strong>{{ item.name }}</strong></p>
-        <p>Precio: {{ item.price + ' €'}}</p>
+        <p><strong>Precio: {{ item.price + ' €'}}</strong></p>
         <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
                 title="Remove item" @click="removeItem(index), restarPrecio(index)">Eliminar
         </button>

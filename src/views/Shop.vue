@@ -30,7 +30,7 @@
                 <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
                   <h3 class="h3color"><strong>{{ product.name }}</strong></h3>
                   <p>{{ product.descripcion }}</p>
-                  <p>Precio: {{ product.price }} €</p>
+                  <p><strong>Precio: {{ product.price }} €</strong></p>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">

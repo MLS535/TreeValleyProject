@@ -4,7 +4,7 @@
 
     <div class="d-flex m-0">
       <!--      <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>-->
-      <img src="../assets/images/TreeValley.png" class="align-self-center" alt="logo">
+      <router-link class="nav-link" to="/"> <img src="../assets/images/TreeValley.png" class="align-self-center" alt="logo"></router-link>
       <div class="pt-2">
         <button class="navbar-toggler align-self-baseline" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
           <span class="navbar-toggler-icon"></span>
