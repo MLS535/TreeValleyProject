@@ -26,7 +26,7 @@ Enlace de Netlify:
 
 ## Lighthouse
 ---
-<p align="center"><img src="/src/assets/Screenshot_1.png" alt="Lighthouse"/></p> 
+<p align="center"><img src="/src/assets/Lighthouse.png" alt="Lighthouse"/></p> 
 
 ## Guía de usuario
 ---
