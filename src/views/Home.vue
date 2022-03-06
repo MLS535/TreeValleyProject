@@ -14,14 +14,14 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../assets/images/sofa.webp" class="d-block w-100" alt="sofa">
+            <img src="../assets/images/sofa.webp" class="d-block w-100" alt="sofa" style="width: 100%; height: 100%" >
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-uppercase bg-dark">Tree Valley: Muebles para el hogar</h2>
 
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/objetos.webp" class="d-block w-100" alt="objetos">
+            <img src="../assets/images/objetos.webp" class="d-block w-100" alt="objetos" style="width: 100%; height: 100%">
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-uppercase bg-dark">Calidad es sinonimo de Tree Valley</h2>
             </div>
@@ -34,7 +34,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/cocina.webp" class="d-block w-100" alt="...">
+            <img src="../assets/images/cocina.webp" class="d-block w-100" alt="cocina" style="width: 100%; height: 100%">
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-uppercase bg-dark">Muebles fabricados en España</h2>
             </div>
