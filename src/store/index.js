@@ -29,11 +29,7 @@ export default createStore({
         price: 169,
       }
     ],
-    cliente: {
-      nombre: "Nombre",
-      apellido: "Apellido",
-      direccion: "Calle del cliente"
-    },
+    cliente: '',
     StoreCart: [],
     total: [],
   },
@@ -58,7 +54,11 @@ export default createStore({
 
     RESTAR_Precio(state, index) {
       state.total.splice(index, 1);
-    }
+    },
+
+    REGISTRAR_Cliente(state, cli) {
+      state.cliente = cli;
+    },
   },
   actions: {
     addItem(context, id) {
@@ -75,6 +75,10 @@ export default createStore({
 
     restarPrecio(context, index) {
       context.commit("RESTAR_Precio", index);
+    },
+
+    registrarCliente(context, cli) {
+      context.commit("REGISTRAR_Cliente", cli);
     }
   },
   modules: {},

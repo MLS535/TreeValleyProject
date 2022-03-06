@@ -5,10 +5,23 @@
     <hr>
 
     <h3>Cliente:</h3>
-    <div>{{ cliente }}</div>
+    
+    <div>Nombre: {{ cliente.nombre }}</div>
+    <div>Apellido: {{ cliente.apellido }}</div>
+    <div>Dirección: {{ cliente.direccion }}</div>
 
     <h3 class="mt-3">Productos comprados:</h3>
-    <div>{{ carrito }}</div>
+    <div class="accordion-body" >
+    <ul class="list-group list-group-flush" v-for="(item, index) in cart" :key="index">
+      <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+        <p><strong>{{ item.name }}</strong></p>
+        <p>{{ item.descripcion }}</p>
+        <p>{{ item.price }} €</p>
+      </li>
+    </ul>
+    
+    
+  </div>
 
     <hr>
     <h3>Total: {{ total }} €</h3>
@@ -25,8 +38,12 @@ export default {
     cliente() {
       return this.$store.getters.cliente;
     },
-    carrito() {
-      return this.$store.getters.StoreCart;
+    cart() {
+      return this.$store.getters.StoreCart.map ( cartitems => {
+        return this.$store.getters.products.find ( itemForSale => {
+          return cartitems === itemForSale.id;
+        } );
+      } );
     },
     precios() {
       return this.$store.getters.total
