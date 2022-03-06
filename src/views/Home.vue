@@ -14,20 +14,20 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../assets/images/sofa.webp" class="d-block w-100" alt="...">
+            <img src="../assets/images/sofa.webp" class="d-block w-100" alt="sofa">
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-uppercase bg-dark">Tree Valley: Muebles para el hogar</h2>
 
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/objetos.webp" class="d-block w-100" alt="...">
+            <img src="../assets/images/objetos.webp" class="d-block w-100" alt="objetos">
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-uppercase bg-dark">Calidad es sinonimo de Tree Valley</h2>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../assets/images/plantas.webp" class="d-block w-100" alt="...">
+            <img src="../assets/images/plantas.webp" class="d-block w-100" alt="plantas">
             <div class="carousel-caption d-none d-md-block">
               <h2 class="text-uppercase bg-dark">Configura tu casa a tu gusto</h2>
 
