@@ -58,7 +58,7 @@
         <div class="col align-self-center  mt-4">
           <router-link class="text-decoration-none"  to="/shop">
           <div class="card border  " style="width: 18rem;">
-            <img class="card-img-top border-dark" src="../assets/images/espejo.jpg" alt="Card image cap">
+            <img class="card-img-top border-dark" src="../assets/images/espejo.webp" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title"><strong>Descubre nuestros precios más bajos</strong></h3>
               <p class="card-text text-secondary">Tree Valley hace productos unicos, especiales para gente como tu, la calidad a un solo click.Hazme click y veremos todo los productos disponibles.</p>
@@ -69,7 +69,7 @@
         <div class="col align-self-center mt-4">
           <router-link class="text-decoration-none"  to="/shop">
           <div class="card border " style="width: 18rem;">
-            <img class="card-img-top border-dark" src="../assets/images/kitchen.jpg" alt="Card image cap">
+            <img class="card-img-top border-dark" src="../assets/images/kitchen_1.webp" alt="Card image cap">
             <div class="card-body">
              <h3 class="card-title"> <strong>Organiza tu hogar por muy poco dinero</strong></h3>
               <p class="card-text text-secondary">Revisa nuestros productos que están hechos con sumo mimo para ti y solo para ti. Hazme click y veremos todo los productos disponibles.</p>
@@ -81,7 +81,7 @@
         <div class="col align-self-center  mt-4">
           <router-link class="text-decoration-none"  to="/shop">
           <div class="card border" style="width: 18rem;">
-            <img class="card-img-top border-dark" src="../assets/images/tv.jpg" alt="Card image cap">
+            <img class="card-img-top border-dark" src="../assets/images/tv.webp" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title"><strong>Ideas para organizar todo tu hogar</strong></h3>
               <p class="card-text text-secondary">¿Te gusta lo que ves? Entra y revisa todo lo que tenemos disponible en nuestra tienda. Hazme click y veremos todo los productos disponibles.</p>
