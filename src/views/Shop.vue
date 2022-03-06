@@ -35,7 +35,7 @@
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                   <div class="d-flex mb-4" style="max-width: 300px">
-                    <button class="btn btn-primary px-3 me-2" @click="addItem(product.id), sumarPrecio(product.price)">
+                    <button class="btn btn-primary px-3 me-2" @click="addItem(product.id), sumarPrecio(product.price), mostrarCheckout()">
                       Añadir
                     </button>
                   </div>
@@ -52,7 +52,7 @@
         <div class="col-md-4">
           <div class="card mb-4">
             <ListShopping/>
-            <button type="button" class="btn btn-primary btn-lg btn-block">
+            <button v-if="checkout" type="button" class="btn btn-primary btn-lg btn-block">
               <router-link class="nav-link text-white" to="/checkout">Ir al checkout</router-link>
             </button>
           </div>
@@ -72,7 +72,10 @@ export default {
   computed: {
     products() {
       return this.$store.getters.products;
-    }
+    },
+    StoreCart() {
+      return this.$store.getters.StoreCart;
+    },
   },
   methods: {
     addItem(id) {
@@ -80,11 +83,19 @@ export default {
     },
     sumarPrecio(id) {
       this.$store.dispatch("sumarPrecio", id);
+    },
+    mostrarCheckout() {
+      if (this.StoreCart.length > 0) {
+        this.checkout = true;
+      } else {
+        this.checkout = false;
+      }
     }
   },
   data() {
     return {
       name: 'Shop',
+      checkout: false
     }
   }
 }

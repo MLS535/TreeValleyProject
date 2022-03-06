@@ -21,7 +21,8 @@
         <p><strong>{{ item.name }}</strong></p>
         <p><strong>Precio: {{ item.price + ' €'}}</strong></p>
         <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
-                title="Remove item" @click="removeItem(index), restarPrecio(index)">Eliminar
+                title="Remove item" @click="removeItem(index), restarPrecio(index), mostrarCheckout()">Eliminar
+                <!-- Aquí no funciona mostrarCheckout -->
         </button>
       </li>
     </ul>
@@ -77,6 +78,13 @@ export default {
     restarPrecio(index) {
       this.$store.dispatch("restarPrecio", index);
     },
+    mostrarCheckout() { // Aquí no funciona porque la propiedad de checkout está en shop. Arreglar en un rato
+      if (this.cartCount > 0) {
+        this.checkout = true;
+      } else {
+        this.checkout = false;
+      }
+    }
   }
 }
 </script>
