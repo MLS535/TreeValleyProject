@@ -8,7 +8,7 @@
 - [Netlify](#Netlify)  
 - [Lighthouse ](#Lighthouse )
 - [Guía de usuario](#guía-de-usuario)
-- [Principios UX y tecnicas de accesibilidad](#Principios UX y tecnicas de accesibilidad:)
+- [Principios UX y tecnicas de accesibilidad](#Principios UX y tecnicas de accesibilidad)
 - [Ampliacion](#Ampliacion )
 - [Guía de instalacion](#guía-de-instalación) 
 - [Autor/es](#autores)
@@ -45,7 +45,7 @@ Otras aplicaciones de la home:
 La página de shop está constituida por tres muebles que permiten al usuario añadir y eliminar y que se van sumando a un carrito de compra. Una vez que se ha creado el carrito de compra y el usuario está contento simplemente le lleva a una página de checkout donde debe introducir su nombre y la dirección para después continuar a una página de facturación.
 Se han utilizado directivas vuex para la persistencia de datos, tanto de compra como de producto. Se han utilizado vistas y componentes para realizar las distintas páginas. Se han utilizado todas las directivas VUE como han sido posibles.
 
-##Principios UX y tecnicas de accesibilidad: 
+## Principios UX y tecnicas de accesibilidad: 
 ---
   1. Paleta de colores:
 <p> <a href="https://coolors.co/ffffff-e49e06-959595-1bb5ac">Paleta de colores</a></p>
