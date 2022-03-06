@@ -9,6 +9,7 @@
 - [Lighthouse ](#Lighthouse )
 - [Guía de usuario](#guía-de-usuario)
 - [Principios UX y tecnicas de accesibilidad](#Principios UX y tecnicas de accesibilidad)
+- [Ampliacion](#Ampliacion )
 - [Guía de instalacion](#guía-de-instalación) 
 - [Autor/es](#autores)
 
@@ -79,7 +80,10 @@ font-family: Arial, Helvetica, sans-serif;
 13. La aplicación es sencilla. En todo momento el usuario sabe donde está.
 14. Utilización de iconos como flechas o un icono de un carrito para indicar al usuario que debe hacer.
 
-
+## Ampliación
+---
+Como ampliaciones, lo que hemos hecho ha sido cambiar el diseño original de tree Valley cambiando el logo y haciendo una página más actual y moderna.
+Además añadimos imagenes en los productos de la shop.
 ## Guía de instalación
 ---
 ## Project setup
