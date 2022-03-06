@@ -21,7 +21,7 @@
                       </div>
                     </div>
                   </div>
-                </div> -->
+                </div> Hello -->
 
                 <div class="col-lg-3 col-md-12 mb-4 mb-lg-0" >
                     <img v-bind:src="product.image" class="w-100" alt="Mueble"/>
