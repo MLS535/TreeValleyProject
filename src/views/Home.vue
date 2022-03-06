@@ -57,7 +57,7 @@
       <div class="row  p-0  align-item-center ">
         <div class="col align-self-center  mt-4">
           <router-link class="text-decoration-none"  to="/shop">
-          <div class="card border  " style="width: 18rem;">
+          <div class="card border  " style="width: 18rem; height: 100%">
             <img class="card-img-top border-dark" src="../assets/images/espejo.webp" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title"><strong>Descubre nuestros precios más bajos</strong></h3>
@@ -68,7 +68,7 @@
         </div>
         <div class="col align-self-center mt-4">
           <router-link class="text-decoration-none"  to="/shop">
-          <div class="card border " style="width: 18rem;">
+          <div class="card border " style="width: 18rem; height: 100%">
             <img class="card-img-top border-dark" src="../assets/images/kitchen_1.webp" alt="Card image cap">
             <div class="card-body">
              <h3 class="card-title"> <strong>Organiza tu hogar por muy poco dinero</strong></h3>
@@ -80,7 +80,7 @@
 
         <div class="col align-self-center  mt-4">
           <router-link class="text-decoration-none"  to="/shop">
-          <div class="card border" style="width: 18rem;">
+          <div class="card border" style="width: 18rem; height: 100%">
             <img class="card-img-top border-dark" src="../assets/images/tv.webp" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title"><strong>Ideas para organizar todo tu hogar</strong></h3>
